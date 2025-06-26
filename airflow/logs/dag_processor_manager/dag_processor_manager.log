@@ -1,0 +1,956 @@
+[2025-06-26T05:16:50.055+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-06-26T05:16:50.056+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-26T05:16:50.057+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-06-26T05:16:50.057+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-26T05:16:50.184+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-26T05:16:50.328+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_controller.py                                0           0
+/opt/airflow/dags/daily_customers_dag.py                           0           0
+/opt/airflow/dags/daily_payments_dag.py     170  0.04s             0           0
+/opt/airflow/dags/example_dag.py            167  0.10s             0           0
+================================================================================
+[2025-06-26T05:17:21.261+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.20s           2025-06-26T05:16:51
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.24s           2025-06-26T05:16:50
+/opt/airflow/dags/daily_payments_dag.py     190  0.00s             1           0  0.31s           2025-06-26T05:16:50
+/opt/airflow/dags/example_dag.py            187  0.02s             1           0  0.38s           2025-06-26T05:16:50
+================================================================================
+[2025-06-26T05:17:51.868+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.13s           2025-06-26T05:17:21
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:17:21
+/opt/airflow/dags/daily_payments_dag.py     210  0.00s             1           0  0.11s           2025-06-26T05:17:21
+/opt/airflow/dags/example_dag.py            207  0.01s             1           0  0.14s           2025-06-26T05:17:21
+================================================================================
+[2025-06-26T05:18:22.608+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:17:52
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:17:52
+/opt/airflow/dags/daily_payments_dag.py     230  0.00s             1           0  0.11s           2025-06-26T05:17:51
+/opt/airflow/dags/example_dag.py            227  0.02s             1           0  0.13s           2025-06-26T05:17:51
+================================================================================
+[2025-06-26T05:18:53.243+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:18:22
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:18:22
+/opt/airflow/dags/daily_payments_dag.py     250  0.00s             1           0  0.11s           2025-06-26T05:18:22
+/opt/airflow/dags/example_dag.py            247  0.01s             1           0  0.13s           2025-06-26T05:18:22
+================================================================================
+[2025-06-26T05:19:24.011+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.12s           2025-06-26T05:18:53
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:18:53
+/opt/airflow/dags/daily_payments_dag.py     270  0.00s             1           0  0.10s           2025-06-26T05:18:53
+/opt/airflow/dags/example_dag.py            267  0.02s             1           0  0.12s           2025-06-26T05:18:53
+================================================================================
+[2025-06-26T05:19:54.615+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.11s           2025-06-26T05:19:24
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:19:24
+/opt/airflow/dags/daily_payments_dag.py     290  0.00s             1           0  0.10s           2025-06-26T05:19:24
+/opt/airflow/dags/example_dag.py            287  0.01s             1           0  0.12s           2025-06-26T05:19:24
+================================================================================
+[2025-06-26T05:20:25.250+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:19:54
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:19:54
+/opt/airflow/dags/daily_payments_dag.py     310  0.00s             1           0  0.09s           2025-06-26T05:19:54
+/opt/airflow/dags/example_dag.py            307  0.01s             1           0  0.11s           2025-06-26T05:19:54
+================================================================================
+[2025-06-26T05:20:55.838+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:20:25
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:20:25
+/opt/airflow/dags/daily_payments_dag.py     330  0.00s             1           0  0.11s           2025-06-26T05:20:25
+/opt/airflow/dags/example_dag.py            327  0.01s             1           0  0.13s           2025-06-26T05:20:25
+================================================================================
+[2025-06-26T05:21:26.519+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:20:56
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:20:56
+/opt/airflow/dags/daily_payments_dag.py     350  0.00s             1           0  0.09s           2025-06-26T05:20:55
+/opt/airflow/dags/example_dag.py            347  0.02s             1           0  0.11s           2025-06-26T05:20:55
+================================================================================
+[2025-06-26T05:21:50.992+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-26T05:21:51.019+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-26T05:21:57.214+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:21:26
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.12s           2025-06-26T05:21:26
+/opt/airflow/dags/daily_payments_dag.py     370  0.00s             1           0  0.11s           2025-06-26T05:21:26
+/opt/airflow/dags/example_dag.py            367  0.01s             1           0  0.14s           2025-06-26T05:21:26
+================================================================================
+[2025-06-26T05:22:27.793+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:21:57
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:21:57
+/opt/airflow/dags/daily_payments_dag.py     390  0.00s             1           0  0.09s           2025-06-26T05:21:57
+/opt/airflow/dags/example_dag.py            387  0.01s             1           0  0.11s           2025-06-26T05:21:57
+================================================================================
+[2025-06-26T05:22:58.418+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:22:28
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:22:28
+/opt/airflow/dags/daily_payments_dag.py     410  0.00s             1           0  0.16s           2025-06-26T05:22:27
+/opt/airflow/dags/example_dag.py            407  0.01s             1           0  0.18s           2025-06-26T05:22:27
+================================================================================
+[2025-06-26T05:23:28.996+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:22:58
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:22:58
+/opt/airflow/dags/daily_payments_dag.py     430  0.00s             1           0  0.10s           2025-06-26T05:22:58
+/opt/airflow/dags/example_dag.py            427  0.01s             1           0  0.12s           2025-06-26T05:22:58
+================================================================================
+[2025-06-26T05:23:59.519+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:23:29
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:23:29
+/opt/airflow/dags/daily_payments_dag.py     450  0.00s             1           0  0.09s           2025-06-26T05:23:29
+/opt/airflow/dags/example_dag.py            447  0.01s             1           0  0.11s           2025-06-26T05:23:29
+================================================================================
+[2025-06-26T05:24:30.187+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.08s           2025-06-26T05:23:59
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:23:59
+/opt/airflow/dags/daily_payments_dag.py     470  0.00s             1           0  0.09s           2025-06-26T05:23:59
+/opt/airflow/dags/example_dag.py            467  0.01s             1           0  0.11s           2025-06-26T05:23:59
+================================================================================
+[2025-06-26T05:25:00.874+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:24:30
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:24:30
+/opt/airflow/dags/daily_payments_dag.py     490  0.00s             1           0  0.09s           2025-06-26T05:24:30
+/opt/airflow/dags/example_dag.py            487  0.01s             1           0  0.11s           2025-06-26T05:24:30
+================================================================================
+[2025-06-26T05:25:31.547+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:25:01
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:25:01
+/opt/airflow/dags/daily_payments_dag.py     510  0.00s             1           0  0.09s           2025-06-26T05:25:00
+/opt/airflow/dags/example_dag.py            507  0.01s             1           0  0.11s           2025-06-26T05:25:00
+================================================================================
+[2025-06-26T05:26:02.296+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:25:31
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:25:31
+/opt/airflow/dags/daily_payments_dag.py     530  0.00s             1           0  0.13s           2025-06-26T05:25:31
+/opt/airflow/dags/example_dag.py            527  0.01s             1           0  0.13s           2025-06-26T05:25:31
+================================================================================
+[2025-06-26T05:26:32.998+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:26:02
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:26:02
+/opt/airflow/dags/daily_payments_dag.py     550  0.00s             1           0  0.09s           2025-06-26T05:26:02
+/opt/airflow/dags/example_dag.py            547  0.01s             1           0  0.11s           2025-06-26T05:26:02
+================================================================================
+[2025-06-26T05:26:51.467+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-26T05:26:51.496+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-26T05:27:03.814+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:26:33
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.11s           2025-06-26T05:26:33
+/opt/airflow/dags/daily_payments_dag.py     570  0.00s             1           0  0.13s           2025-06-26T05:26:33
+/opt/airflow/dags/example_dag.py            567  0.01s             1           0  0.16s           2025-06-26T05:26:33
+================================================================================
+[2025-06-26T05:27:34.534+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:27:04
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.08s           2025-06-26T05:27:03
+/opt/airflow/dags/daily_payments_dag.py     590  0.00s             1           0  0.09s           2025-06-26T05:27:03
+/opt/airflow/dags/example_dag.py            587  0.01s             1           0  0.11s           2025-06-26T05:27:03
+================================================================================
+[2025-06-26T05:28:05.225+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:27:34
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:27:34
+/opt/airflow/dags/daily_payments_dag.py     610  0.01s             1           0  0.08s           2025-06-26T05:27:34
+/opt/airflow/dags/example_dag.py            607  0.02s             1           0  0.10s           2025-06-26T05:27:34
+================================================================================
+[2025-06-26T05:28:35.924+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:28:05
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:28:05
+/opt/airflow/dags/daily_payments_dag.py     630  0.01s             1           0  0.09s           2025-06-26T05:28:05
+/opt/airflow/dags/example_dag.py            627  0.02s             1           0  0.11s           2025-06-26T05:28:05
+================================================================================
+[2025-06-26T05:29:06.546+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:28:36
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:28:36
+/opt/airflow/dags/daily_payments_dag.py     650  0.00s             1           0  0.10s           2025-06-26T05:28:36
+/opt/airflow/dags/example_dag.py            647  0.01s             1           0  0.13s           2025-06-26T05:28:36
+================================================================================
+[2025-06-26T05:29:37.181+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:29:06
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:29:06
+/opt/airflow/dags/daily_payments_dag.py     670  0.00s             1           0  0.09s           2025-06-26T05:29:06
+/opt/airflow/dags/example_dag.py            667  0.02s             1           0  0.10s           2025-06-26T05:29:06
+================================================================================
+[2025-06-26T05:30:07.828+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.11s           2025-06-26T05:29:37
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:29:37
+/opt/airflow/dags/daily_payments_dag.py     690  0.00s             1           0  0.10s           2025-06-26T05:29:37
+/opt/airflow/dags/example_dag.py            687  0.01s             1           0  0.12s           2025-06-26T05:29:37
+================================================================================
+[2025-06-26T05:30:38.419+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:30:08
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:30:08
+/opt/airflow/dags/daily_payments_dag.py     710  0.00s             1           0  0.09s           2025-06-26T05:30:07
+/opt/airflow/dags/example_dag.py            707  0.02s             1           0  0.11s           2025-06-26T05:30:07
+================================================================================
+[2025-06-26T05:31:09.041+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:30:38
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:30:38
+/opt/airflow/dags/daily_payments_dag.py     730  0.00s             1           0  0.09s           2025-06-26T05:30:38
+/opt/airflow/dags/example_dag.py            727  0.01s             1           0  0.11s           2025-06-26T05:30:38
+================================================================================
+[2025-06-26T05:31:39.677+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:31:09
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:31:09
+/opt/airflow/dags/daily_payments_dag.py     750  0.00s             1           0  0.09s           2025-06-26T05:31:09
+/opt/airflow/dags/example_dag.py            747  0.01s             1           0  0.11s           2025-06-26T05:31:09
+================================================================================
+[2025-06-26T05:31:51.971+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-26T05:31:52.011+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-26T05:32:10.366+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:31:39
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:31:39
+/opt/airflow/dags/daily_payments_dag.py     770  0.00s             1           0  0.09s           2025-06-26T05:31:39
+/opt/airflow/dags/example_dag.py            767  0.02s             1           0  0.11s           2025-06-26T05:31:39
+================================================================================
+[2025-06-26T05:32:40.994+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:32:10
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:32:10
+/opt/airflow/dags/daily_payments_dag.py     790  0.00s             1           0  0.09s           2025-06-26T05:32:10
+/opt/airflow/dags/example_dag.py            787  0.01s             1           0  0.12s           2025-06-26T05:32:10
+================================================================================
+[2025-06-26T05:33:11.620+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:32:41
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:32:41
+/opt/airflow/dags/daily_payments_dag.py     810  0.00s             1           0  0.09s           2025-06-26T05:32:41
+/opt/airflow/dags/example_dag.py            807  0.01s             1           0  0.11s           2025-06-26T05:32:41
+================================================================================
+[2025-06-26T05:33:42.243+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:33:11
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:33:11
+/opt/airflow/dags/daily_payments_dag.py     830  0.00s             1           0  0.09s           2025-06-26T05:33:11
+/opt/airflow/dags/example_dag.py            827  0.01s             1           0  0.11s           2025-06-26T05:33:11
+================================================================================
+[2025-06-26T05:34:12.867+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:33:42
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:33:42
+/opt/airflow/dags/daily_payments_dag.py     850  0.00s             1           0  0.09s           2025-06-26T05:33:42
+/opt/airflow/dags/example_dag.py            847  0.01s             1           0  0.11s           2025-06-26T05:33:42
+================================================================================
+[2025-06-26T05:34:43.492+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:34:13
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:34:13
+/opt/airflow/dags/daily_payments_dag.py     870  0.00s             1           0  0.09s           2025-06-26T05:34:12
+/opt/airflow/dags/example_dag.py            867  0.01s             1           0  0.11s           2025-06-26T05:34:12
+================================================================================
+[2025-06-26T05:35:14.128+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:34:43
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:34:43
+/opt/airflow/dags/daily_payments_dag.py     890  0.00s             1           0  0.10s           2025-06-26T05:34:43
+/opt/airflow/dags/example_dag.py            887  0.01s             1           0  0.13s           2025-06-26T05:34:43
+================================================================================
+[2025-06-26T05:35:44.762+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:35:14
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:35:14
+/opt/airflow/dags/daily_payments_dag.py     910  0.00s             1           0  0.09s           2025-06-26T05:35:14
+/opt/airflow/dags/example_dag.py            907  0.01s             1           0  0.11s           2025-06-26T05:35:14
+================================================================================
+[2025-06-26T05:36:15.428+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:35:45
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:35:44
+/opt/airflow/dags/daily_payments_dag.py     930  0.00s             1           0  0.10s           2025-06-26T05:35:44
+/opt/airflow/dags/example_dag.py            927  0.01s             1           0  0.12s           2025-06-26T05:35:44
+================================================================================
+[2025-06-26T05:36:46.108+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:36:15
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:36:15
+/opt/airflow/dags/daily_payments_dag.py     950  0.00s             1           0  0.09s           2025-06-26T05:36:15
+/opt/airflow/dags/example_dag.py            947  0.01s             1           0  0.11s           2025-06-26T05:36:15
+================================================================================
+[2025-06-26T05:36:52.360+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-26T05:36:52.387+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-26T05:37:16.775+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:36:46
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:36:46
+/opt/airflow/dags/daily_payments_dag.py     970  0.00s             1           0  0.09s           2025-06-26T05:36:46
+/opt/airflow/dags/example_dag.py            967  0.01s             1           0  0.11s           2025-06-26T05:36:46
+================================================================================
+[2025-06-26T05:37:47.461+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:37:17
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:37:16
+/opt/airflow/dags/daily_payments_dag.py     990  0.00s             1           0  0.09s           2025-06-26T05:37:16
+/opt/airflow/dags/example_dag.py            987  0.01s             1           0  0.11s           2025-06-26T05:37:16
+================================================================================
+[2025-06-26T05:38:18.077+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:37:47
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:37:47
+/opt/airflow/dags/daily_payments_dag.py    1010  0.00s             1           0  0.11s           2025-06-26T05:37:47
+/opt/airflow/dags/example_dag.py           1007  0.02s             1           0  0.11s           2025-06-26T05:37:47
+================================================================================
+[2025-06-26T05:38:48.835+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:38:18
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:38:18
+/opt/airflow/dags/daily_payments_dag.py    1030  0.00s             1           0  0.10s           2025-06-26T05:38:18
+/opt/airflow/dags/example_dag.py           1027  0.01s             1           0  0.12s           2025-06-26T05:38:18
+================================================================================
+[2025-06-26T05:39:19.510+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:38:49
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:38:49
+/opt/airflow/dags/daily_payments_dag.py    1050  0.00s             1           0  0.09s           2025-06-26T05:38:48
+/opt/airflow/dags/example_dag.py           1047  0.01s             1           0  0.11s           2025-06-26T05:38:48
+================================================================================
+[2025-06-26T05:39:50.206+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.12s           2025-06-26T05:39:19
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.12s           2025-06-26T05:39:19
+/opt/airflow/dags/daily_payments_dag.py    1070  0.00s             1           0  0.11s           2025-06-26T05:39:19
+/opt/airflow/dags/example_dag.py           1067  0.01s             1           0  0.14s           2025-06-26T05:39:19
+================================================================================
+[2025-06-26T05:40:20.843+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:39:50
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:39:50
+/opt/airflow/dags/daily_payments_dag.py    1090  0.00s             1           0  0.10s           2025-06-26T05:39:50
+/opt/airflow/dags/example_dag.py           1087  0.02s             1           0  0.12s           2025-06-26T05:39:50
+================================================================================
+[2025-06-26T05:40:51.533+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.11s           2025-06-26T05:40:21
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.11s           2025-06-26T05:40:21
+/opt/airflow/dags/daily_payments_dag.py    1110  0.00s             1           0  0.11s           2025-06-26T05:40:20
+/opt/airflow/dags/example_dag.py           1107  0.01s             1           0  0.13s           2025-06-26T05:40:20
+================================================================================
+[2025-06-26T05:41:22.205+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:40:51
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:40:51
+/opt/airflow/dags/daily_payments_dag.py    1130  0.00s             1           0  0.09s           2025-06-26T05:40:51
+/opt/airflow/dags/example_dag.py           1127  0.01s             1           0  0.11s           2025-06-26T05:40:51
+================================================================================
+[2025-06-26T05:41:52.847+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-26T05:41:52.878+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-26T05:41:52.905+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:41:22
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:41:22
+/opt/airflow/dags/daily_payments_dag.py    1150  0.00s             1           0  0.09s           2025-06-26T05:41:22
+/opt/airflow/dags/example_dag.py           1147  0.01s             1           0  0.11s           2025-06-26T05:41:22
+================================================================================
+[2025-06-26T05:42:23.599+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:41:53
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:41:53
+/opt/airflow/dags/daily_payments_dag.py    1170  0.00s             1           0  0.09s           2025-06-26T05:41:52
+/opt/airflow/dags/example_dag.py           1167  0.01s             1           0  0.11s           2025-06-26T05:41:53
+================================================================================
+[2025-06-26T05:42:54.324+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:42:23
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.11s           2025-06-26T05:42:23
+/opt/airflow/dags/daily_payments_dag.py    1190  0.00s             1           0  0.15s           2025-06-26T05:42:23
+/opt/airflow/dags/example_dag.py           1187  0.01s             1           0  0.19s           2025-06-26T05:42:23
+================================================================================
+[2025-06-26T05:43:24.999+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.11s           2025-06-26T05:42:54
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.11s           2025-06-26T05:42:54
+/opt/airflow/dags/daily_payments_dag.py    1210  0.00s             1           0  0.10s           2025-06-26T05:42:54
+/opt/airflow/dags/example_dag.py           1207  0.02s             1           0  0.13s           2025-06-26T05:42:54
+================================================================================
+[2025-06-26T05:43:55.718+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.13s           2025-06-26T05:43:25
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.13s           2025-06-26T05:43:25
+/opt/airflow/dags/daily_payments_dag.py    1230  0.00s             1           0  0.13s           2025-06-26T05:43:25
+/opt/airflow/dags/example_dag.py           1227  0.02s             1           0  0.16s           2025-06-26T05:43:25
+================================================================================
+[2025-06-26T05:44:26.363+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:43:56
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:43:55
+/opt/airflow/dags/daily_payments_dag.py    1250  0.01s             1           0  0.12s           2025-06-26T05:43:55
+/opt/airflow/dags/example_dag.py           1247  0.01s             1           0  0.14s           2025-06-26T05:43:55
+================================================================================
+[2025-06-26T05:44:57.007+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:44:26
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:44:26
+/opt/airflow/dags/daily_payments_dag.py    1270  0.00s             1           0  0.11s           2025-06-26T05:44:26
+/opt/airflow/dags/example_dag.py           1267  0.01s             1           0  0.13s           2025-06-26T05:44:26
+================================================================================
+[2025-06-26T05:45:27.635+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:44:57
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:44:57
+/opt/airflow/dags/daily_payments_dag.py    1290  0.00s             1           0  0.11s           2025-06-26T05:44:57
+/opt/airflow/dags/example_dag.py           1287  0.01s             1           0  0.13s           2025-06-26T05:44:57
+================================================================================
+[2025-06-26T05:45:58.299+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:45:27
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:45:27
+/opt/airflow/dags/daily_payments_dag.py    1310  0.00s             1           0  0.11s           2025-06-26T05:45:27
+/opt/airflow/dags/example_dag.py           1307  0.01s             1           0  0.13s           2025-06-26T05:45:27
+================================================================================
+[2025-06-26T05:46:28.909+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.08s           2025-06-26T05:45:58
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:45:58
+/opt/airflow/dags/daily_payments_dag.py    1330  0.00s             1           0  0.08s           2025-06-26T05:45:58
+/opt/airflow/dags/example_dag.py           1327  0.01s             1           0  0.10s           2025-06-26T05:45:58
+================================================================================
+[2025-06-26T05:46:53.564+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-26T05:46:53.588+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-26T05:46:59.680+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.14s           2025-06-26T05:46:29
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.13s           2025-06-26T05:46:29
+/opt/airflow/dags/daily_payments_dag.py    1350  0.00s             1           0  0.10s           2025-06-26T05:46:28
+/opt/airflow/dags/example_dag.py           1347  0.01s             1           0  0.12s           2025-06-26T05:46:29
+================================================================================
+[2025-06-26T05:47:30.401+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:47:00
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:46:59
+/opt/airflow/dags/daily_payments_dag.py    1370  0.00s             1           0  0.23s           2025-06-26T05:46:59
+/opt/airflow/dags/example_dag.py           1367  0.01s             1           0  0.25s           2025-06-26T05:46:59
+================================================================================
+[2025-06-26T05:48:01.038+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:47:30
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:47:30
+/opt/airflow/dags/daily_payments_dag.py    1390  0.00s             1           0  0.11s           2025-06-26T05:47:30
+/opt/airflow/dags/example_dag.py           1387  0.01s             1           0  0.13s           2025-06-26T05:47:30
+================================================================================
+[2025-06-26T05:48:31.673+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:48:01
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:48:01
+/opt/airflow/dags/daily_payments_dag.py    1410  0.01s             1           0  0.10s           2025-06-26T05:48:01
+/opt/airflow/dags/example_dag.py           1407  0.01s             1           0  0.12s           2025-06-26T05:48:01
+================================================================================
+[2025-06-26T05:49:02.309+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:48:31
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:48:31
+/opt/airflow/dags/daily_payments_dag.py    1430  0.00s             1           0  0.10s           2025-06-26T05:48:31
+/opt/airflow/dags/example_dag.py           1427  0.01s             1           0  0.12s           2025-06-26T05:48:31
+================================================================================
+[2025-06-26T05:49:32.979+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:49:02
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:49:02
+/opt/airflow/dags/daily_payments_dag.py    1450  0.00s             1           0  0.10s           2025-06-26T05:49:02
+/opt/airflow/dags/example_dag.py           1447  0.01s             1           0  0.13s           2025-06-26T05:49:02
+================================================================================
+[2025-06-26T05:50:03.669+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:49:33
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:49:33
+/opt/airflow/dags/daily_payments_dag.py    1470  0.00s             1           0  0.09s           2025-06-26T05:49:33
+/opt/airflow/dags/example_dag.py           1467  0.01s             1           0  0.11s           2025-06-26T05:49:33
+================================================================================
+[2025-06-26T05:50:34.271+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:50:03
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:50:03
+/opt/airflow/dags/daily_payments_dag.py    1490  0.00s             1           0  0.09s           2025-06-26T05:50:03
+/opt/airflow/dags/example_dag.py           1487  0.01s             1           0  0.12s           2025-06-26T05:50:03
+================================================================================
+[2025-06-26T05:51:04.945+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:50:34
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:50:34
+/opt/airflow/dags/daily_payments_dag.py    1510  0.01s             1           0  0.09s           2025-06-26T05:50:34
+/opt/airflow/dags/example_dag.py           1507  0.01s             1           0  0.12s           2025-06-26T05:50:34
+================================================================================
+[2025-06-26T05:51:35.589+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:51:05
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:51:05
+/opt/airflow/dags/daily_payments_dag.py    1530  0.00s             1           0  0.10s           2025-06-26T05:51:05
+/opt/airflow/dags/example_dag.py           1527  0.02s             1           0  0.12s           2025-06-26T05:51:05
+================================================================================
+[2025-06-26T05:51:53.963+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-26T05:51:53.989+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-26T05:52:06.256+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.11s           2025-06-26T05:51:35
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.11s           2025-06-26T05:51:35
+/opt/airflow/dags/daily_payments_dag.py    1550  0.00s             1           0  0.12s           2025-06-26T05:51:35
+/opt/airflow/dags/example_dag.py           1547  0.02s             1           0  0.15s           2025-06-26T05:51:35
+================================================================================
+[2025-06-26T05:52:37.050+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.12s           2025-06-26T05:52:06
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.20s           2025-06-26T05:52:06
+/opt/airflow/dags/daily_payments_dag.py    1570  0.00s             1           0  0.14s           2025-06-26T05:52:06
+/opt/airflow/dags/example_dag.py           1567  0.01s             1           0  0.17s           2025-06-26T05:52:06
+================================================================================
+[2025-06-26T05:53:07.824+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:52:37
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:52:37
+/opt/airflow/dags/daily_payments_dag.py    1590  0.00s             1           0  0.09s           2025-06-26T05:52:37
+/opt/airflow/dags/example_dag.py           1587  0.01s             1           0  0.11s           2025-06-26T05:52:37
+================================================================================
+[2025-06-26T05:53:38.572+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.12s           2025-06-26T05:53:08
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.12s           2025-06-26T05:53:08
+/opt/airflow/dags/daily_payments_dag.py    1610  0.00s             1           0  0.11s           2025-06-26T05:53:07
+/opt/airflow/dags/example_dag.py           1607  0.01s             1           0  0.13s           2025-06-26T05:53:07
+================================================================================
+[2025-06-26T05:54:09.302+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:53:38
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:53:38
+/opt/airflow/dags/daily_payments_dag.py    1630  0.00s             1           0  0.10s           2025-06-26T05:53:38
+/opt/airflow/dags/example_dag.py           1627  0.01s             1           0  0.12s           2025-06-26T05:53:38
+================================================================================
+[2025-06-26T05:54:39.980+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:54:09
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:54:09
+/opt/airflow/dags/daily_payments_dag.py    1650  0.00s             1           0  0.11s           2025-06-26T05:54:09
+/opt/airflow/dags/example_dag.py           1647  0.01s             1           0  0.10s           2025-06-26T05:54:09
+================================================================================
+[2025-06-26T05:55:10.724+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.11s           2025-06-26T05:54:40
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:54:40
+/opt/airflow/dags/daily_payments_dag.py    1670  0.00s             1           0  0.09s           2025-06-26T05:54:40
+/opt/airflow/dags/example_dag.py           1667  0.01s             1           0  0.10s           2025-06-26T05:54:40
+================================================================================
+[2025-06-26T05:55:41.413+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:55:11
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:55:10
+/opt/airflow/dags/daily_payments_dag.py    1690  0.00s             1           0  0.09s           2025-06-26T05:55:10
+/opt/airflow/dags/example_dag.py           1687  0.01s             1           0  0.11s           2025-06-26T05:55:10
+================================================================================
+[2025-06-26T05:56:12.107+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.14s           2025-06-26T05:55:41
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:55:41
+/opt/airflow/dags/daily_payments_dag.py    1710  0.00s             1           0  0.11s           2025-06-26T05:55:41
+/opt/airflow/dags/example_dag.py           1707  0.01s             1           0  0.13s           2025-06-26T05:55:41
+================================================================================
+[2025-06-26T05:56:42.803+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.08s           2025-06-26T05:56:12
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:56:12
+/opt/airflow/dags/daily_payments_dag.py    1730  0.00s             1           0  0.11s           2025-06-26T05:56:12
+/opt/airflow/dags/example_dag.py           1727  0.02s             1           0  0.13s           2025-06-26T05:56:12
+================================================================================
+[2025-06-26T05:56:54.096+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-26T05:56:54.130+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-26T05:57:13.484+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:56:42
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:56:42
+/opt/airflow/dags/daily_payments_dag.py    1750  0.00s             1           0  0.09s           2025-06-26T05:56:42
+/opt/airflow/dags/example_dag.py           1747  0.01s             1           0  0.11s           2025-06-26T05:56:42
+================================================================================
+[2025-06-26T05:57:44.110+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.10s           2025-06-26T05:57:13
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:57:13
+/opt/airflow/dags/daily_payments_dag.py    1770  0.00s             1           0  0.11s           2025-06-26T05:57:13
+/opt/airflow/dags/example_dag.py           1767  0.01s             1           0  0.13s           2025-06-26T05:57:13
+================================================================================
+[2025-06-26T05:58:14.802+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:57:44
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:57:44
+/opt/airflow/dags/daily_payments_dag.py    1790  0.00s             1           0  0.10s           2025-06-26T05:57:44
+/opt/airflow/dags/example_dag.py           1787  0.01s             1           0  0.12s           2025-06-26T05:57:44
+================================================================================
+[2025-06-26T05:58:45.487+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.08s           2025-06-26T05:58:15
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:58:14
+/opt/airflow/dags/daily_payments_dag.py    1810  0.00s             1           0  0.10s           2025-06-26T05:58:14
+/opt/airflow/dags/example_dag.py           1807  0.01s             1           0  0.11s           2025-06-26T05:58:14
+================================================================================
+[2025-06-26T05:59:16.246+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.16s           2025-06-26T05:58:45
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.10s           2025-06-26T05:58:45
+/opt/airflow/dags/daily_payments_dag.py    1830  0.00s             1           0  0.09s           2025-06-26T05:58:45
+/opt/airflow/dags/example_dag.py           1827  0.01s             1           0  0.11s           2025-06-26T05:58:45
+================================================================================
+[2025-06-26T05:59:46.900+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_controller.py                                1           0  0.09s           2025-06-26T05:59:16
+/opt/airflow/dags/daily_customers_dag.py                           1           0  0.09s           2025-06-26T05:59:16
+/opt/airflow/dags/daily_payments_dag.py    1850  0.01s             1           0  0.09s           2025-06-26T05:59:16
+/opt/airflow/dags/example_dag.py           1847  0.03s             1           0  0.12s           2025-06-26T05:59:16
+================================================================================

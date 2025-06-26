@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres-lab
+    environment:
+      POSTGRES_USER: airflow                # username
+      POSTGRES_PASSWORD: airflow            # password
+      POSTGRES_DB: airflow                  # db name
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+
+  airflow-webserver:
+    build: ./airflow
+    container_name: airflow-webserver-lab
+    depends_on:
+      - postgres
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW__LOGGING__REMOTE_LOGGING=False
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/datasets:/opt/airflow/datasets
+      - ./airflow/logs:/opt/airflow/logs
+    ports:
+      - "8080:8080"
+    command: webserver
+
+  airflow-scheduler:
+    build: ./airflow
+    container_name: airflow-scheduler-lab
+    depends_on:
+      - airflow-webserver
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW__LOGGING__REMOTE_LOGGING=False
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/datasets:/opt/airflow/datasets
+      - ./airflow/logs:/opt/airflow/logs
+    command: scheduler
+
+  python-app:
+    build:
+      context: ./scripts
+    container_name: python-lab
+    depends_on:
+      - postgres
+    restart: on-failure
+
+  dbt:
+    image: ghcr.io/dbt-labs/dbt-postgres:1.7.6  # use latest compatible version
+    container_name: dbt-lab
+    working_dir: /usr/app
+    volumes:
+      - ./dbt:/usr/app
+    depends_on:
+      - postgres
+
+
+volumes:
+  postgres_data:
