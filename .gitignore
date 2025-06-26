@@ -1,0 +1,30 @@
+# DBT artifacts
+dbt_packages/
+dbt_modules/
+logs/
+target/
+manifest.json
+run_results.json
+profiles.yml  # only if stored in the project (not recommended)
+
+# Airflow
+airflow\logs
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.env
+.env
+.env.*
+
+# Docker
+*.pid
+*.log
+docker-compose.override.yml
+
+# VSCode and IDEs
+.vscode/
+.idea/
+.DS
