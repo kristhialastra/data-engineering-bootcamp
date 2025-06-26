@@ -55,20 +55,15 @@ project-root/
 4. Initialize airflow-webserver
         
     ```
-    docker compose run airflow-webserver airflow db init
+    docker compose run airflow-webserver-lab airflow db init
     ```
     Rerun the container
 
     ```
     docker compose up -d
     ```
-5. Test if jupyternotebook is running 
-    At **notebooks\create_ddl.ipynb** change the parameters and and run the scripts
 
-6. Connect and test PostgreSQL database to dbeaver
-    https://dbeaver.com/docs/dbeaver/Create-Connection/#use-the-new-connection-wizard
-
-7. Create or Reset Airflow Admin User
+    Create or Reset Airflow Admin User
     ```
     docker exec -it airflow-webserver bash
     ```
@@ -89,3 +84,10 @@ project-root/
     Username: admin
     Password: admin
     ```
+5. Test if jupyternotebook is running 
+    At **notebooks\create_ddl.ipynb** change the parameters and and run the scripts
+
+6. Connect and test PostgreSQL database to dbeaver
+    https://dbeaver.com/docs/dbeaver/Create-Connection/#use-the-new-connection-wizard
+
+7. 
