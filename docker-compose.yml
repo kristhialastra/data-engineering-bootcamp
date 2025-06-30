@@ -60,9 +60,9 @@ services:
     working_dir: /usr/app
     volumes:
       - ./dbt:/usr/app
+      - ~/.dbt:/root/.dbt
     depends_on:
       - postgres
-    command: tail -f /dev/null
 
 
 volumes:
