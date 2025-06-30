@@ -55,7 +55,7 @@ project-root/
 4. Initialize airflow-webserver
         
     ```
-    docker compose run airflow-webserver-lab airflow db init
+    docker compose run airflow-webserver airflow db init
     ```
     Rerun the container
 
@@ -65,7 +65,7 @@ project-root/
 
     Create or Reset Airflow Admin User
     ```
-    docker exec -it airflow-webserver bash
+    docker exec -it airflow-webserver-lab bash
     ```
 
     Create new admin user
@@ -90,4 +90,7 @@ project-root/
 6. Connect and test PostgreSQL database to dbeaver
     https://dbeaver.com/docs/dbeaver/Create-Connection/#use-the-new-connection-wizard
 
-7. 
+7. Test DBT by running the sample model using wsl:
+    ```
+    docker-compose run --rm dbt run
+    ```
