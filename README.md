@@ -94,3 +94,8 @@ project-root/
     ```
     docker-compose run --rm dbt run
     ```
+
+8. DBT VS Code Plug-ins <br>
+    vscode-dbt <br>
+    dbt <br>
+    Power User for dbt <br>
