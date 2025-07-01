@@ -1,6 +1,7 @@
 # DBT artifacts
 dbt_packages/
 dbt_modules/
+dbt_internal_packages/
 logs/
 target/
 manifest.json
