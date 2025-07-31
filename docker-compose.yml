@@ -64,6 +64,26 @@ services:
     depends_on:
       - postgres
 
+  spark:
+    image: bitnami/spark:latest
+    container_name: spark-dev
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+    ports:
+      - "4040:4040"   # Spark UI
+      - "7077:7077"   # Spark Master
+      - "8080:8080"   # Spark Master Web UI
+    volumes:
+      - ./app:/app   # mount your app folder
+    working_dir: /app
+    command: tail -f /dev/null
+
+    # command: bash
+
 
 volumes:
   postgres_data:
