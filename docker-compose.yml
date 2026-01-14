@@ -12,7 +12,7 @@ services:
       # - postgres_data:/var/lib/postgresql/data
       - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
-      - "5432:5432"
+      - "5433:5432"
 
   airflow-webserver:
     build: ./airflow
@@ -60,29 +60,9 @@ services:
     working_dir: /usr/app
     volumes:
       - ./dbt:/usr/app
-      - ~/.dbt:/root/.dbt
     depends_on:
       - postgres
-
-  spark:
-    image: bitnami/spark:latest
-    container_name: spark-dev
-    environment:
-      - SPARK_MODE=master
-      - SPARK_RPC_AUTHENTICATION_ENABLED=no
-      - SPARK_RPC_ENCRYPTION_ENABLED=no
-      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
-      - SPARK_SSL_ENABLED=no
-    ports:
-      - "4040:4040"   # Spark UI
-      - "7077:7077"   # Spark Master
-      - "8080:8080"   # Spark Master Web UI
-    volumes:
-      - ./app:/app   # mount your app folder
-    working_dir: /app
     command: tail -f /dev/null
-
-    # command: bash
 
 
 volumes:
