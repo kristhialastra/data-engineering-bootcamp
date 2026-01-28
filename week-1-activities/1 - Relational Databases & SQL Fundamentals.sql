@@ -1,98 +1,43 @@
--- Enforce relationships by adding Foreign Keys to link Orders to Customers, Order_Items to Orders and Products using the suggested dataset.
+-- Create Customers and Products tables using the suggested dataset columns. Define Primary Keys.
 
-ALTER TABLE orders
-ADD CONSTRAINT fk_orders_customers
-FOREIGN KEY (customer_id) REFERENCES customers(customer_id);
+CREATE TABLE customers (
+    customer_id VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    registration_date DATE NOT NULL,
+    city VARCHAR(50),
+    country VARCHAR(50)
+);
 
-ALTER TABLE order_items
-ADD CONSTRAINT fk_order_items_orders
-FOREIGN KEY (order_id) REFERENCES orders(order_id);
+CREATE TABLE products (
+    product_id VARCHAR(20) PRIMARY KEY,
+    product_name VARCHAR(100) NOT NULL,
+    category VARCHAR(50) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    weight DECIMAL(8, 2)
+);
 
-ALTER TABLE order_items
-ADD CONSTRAINT fk_order_items_products
-FOREIGN KEY (product_id) REFERENCES products(product_id);
+-- INSERT 10-15 rows of sample data into each table from the customers.csv and products.csv dataset components.
 
--- Join data: Retrieve order details along with customer names.
+SELECT 'customers' as table_name, COUNT(*) as row_count FROM customers
+UNION ALL
+SELECT 'products' as table_name, COUNT(*) as row_count FROM products;
 
-SELECT 
-    orders.order_id,
-    customers.name,
-    orders.order_date,
-    orders.total_amount,
-    orders.status
-FROM orders
-INNER JOIN customers ON orders.customer_id = customers.customer_id;
+-- Practice basic data retrieval (SELECT *, SELECT specific_columns, SELECT DISTINCT, WHERE conditions (AND, OR, LIKE, IN), ORDER BY, LIMIT).
 
--- Join data: Find products that have never been ordered (using LEFT JOIN).
+SELECT DISTINCT country, city, name, email, registration_date
+FROM customers
+WHERE (country IN ('USA', 'UK', 'Japan') OR city LIKE '%New%')
+  AND registration_date > '2023-01-10'
+ORDER BY registration_date DESC
+LIMIT 5;
 
-SELECT 
-    products.product_id,
-    products.product_name,
-    products.category
+
+-- Problem: Retrieve all products in the 'Electronics' category. Find all customers registered after a specific date.
+
+SELECT product_name, category
 FROM products
-LEFT JOIN order_items ON products.product_id = order_items.product_id
-WHERE order_items.order_item_id IS NULL;
+WHERE category = 'Electronics'
 
-
--- Aggregation queries: Count total orders per customer.
-
-select count(distinct order_id) as total_per_cust, customers.name
-from orders right join customers on orders.customer_id = customers.customer_id 
-group by customers.name
-order by total_per_cust desc, customers.name
-
--- Aggregation queries: Calculate total revenue per product category.
-
-select sum(orders.total_amount) as rev_per_prod_cat, products.category
-from orders
-join order_items on orders.order_id = order_items.order_id
-join products on order_items.product_id = products.product_id
-group by products.category
-order by rev_per_prod_cat desc;
-
--- Aggregation queries: Find top 5 customers by total spending.
-
-select sum(orders.total_amount) as total_spending, customers.name
-from customers join orders on customers.customer.id = orders.customer.id
-group by customers.name
-order by total_spending desc
-limit 5;
-
--- Mini-Project: Online Sales Data: Create tables and define appropriate relationships (Primary and Foreign Keys) for the full online store schema.
-
--- Task: Answer business questions using JOINs and aggregations: "Who are our top 10 customers by total order value?"
-
-SELECT 
-    customers.name,
-    COUNT(DISTINCT orders.order_id) AS total_no_orders,
-    COUNT(order_items.order_item_id) AS total_ordered_items,
-    SUM(order_items.quantity * order_items.unit_price) AS totalorderval_from_unitprice
-FROM customers
-LEFT JOIN orders ON customers.customer_id = orders.customer_id
-LEFT JOIN order_items ON orders.order_id = order_items.order_id
-GROUP BY customers.customer_id, customers.name
-ORDER BY total_ordered_items  DESC
-LIMIT 10;
-
--- Task: Answer business questions using JOINs and aggregations: "Which product categories generate the most revenue?"
-
-select products.category, sum(order_items.quantity * order_items.unit_price) as total_rev
-from products join order_items on products.product_id = order_items.product_id
-join orders on order_items.order_id = orders.order_id 
-group by products.category
-order by total_rev desc
-
--- Task: Answer business questions using JOINs and aggregations: "What's the average order size per customer?" - Assuming size refers to number of items ordered
-
-SELECT 
-    customers.customer_id,
-    customers.name,
-    COUNT(DISTINCT orders.order_id) AS total_orders,
-    COUNT(order_items.order_item_id) AS total_items,
-    COUNT(order_items.order_item_id) / COUNT(DISTINCT orders.order_id) AS average_order_size
-FROM customers
-INNER JOIN orders ON customers.customer_id = orders.customer_id
-INNER JOIN order_items ON orders.order_id = order_items.order_id
-GROUP BY customers.customer_id, customers.name
-ORDER BY average_order_size DESC;
-
+SELECT * FROM customers
+WHERE registration_date > '2023-01-15'
